@@ -199,6 +199,13 @@ PRODUCT_COPY_FILES += \
     vendor/sharp/SS2/proprietary/vendor/lib/libchromatix_s5k4h8_s2p_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_s2p_zsl_preview_3a.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libchromatix_s5k4h8_s2p_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_s2p_zsl_video_3a.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
+    vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
+    vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_s5k2l7sa_s2p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7sa_s2p.so \
+    vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_s5k2l7sa_s2p_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7sa_s2p_m24c64s_eeprom.so \
+    vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_s5k3h7_s2p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3h7_s2p.so \
+    vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_s5k3h7_s2p_chicony_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3h7_s2p_chicony_eeprom.so \
+    vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_s5k4h8_s2p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_s2p.so \
+    vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_s5k4h8_s2p_m24c64t_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_s2p_m24c64t_eeprom.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
