@@ -18,7 +18,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sharp/
 
 PRODUCT_COPY_FILES += \
+    vendor/sharp/SS2/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/sharp/SS2/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
+    vendor/sharp/SS2/proprietary/vendor/bin/hw/android.hardware.biometrics.fpc@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fpc@2.1-service \
     vendor/sharp/SS2/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/sharp/SS2/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/sharp/SS2/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -71,27 +73,12 @@ PRODUCT_COPY_FILES += \
     vendor/sharp/SS2/proprietary/vendor/etc/camera/s5k2l7sa_s2p_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k2l7sa_s2p_chromatix.xml \
     vendor/sharp/SS2/proprietary/vendor/etc/camera/s5k3h7_s2p_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3h7_s2p_chromatix.xml \
     vendor/sharp/SS2/proprietary/vendor/etc/camera/s5k4h8_s2p_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_s2p_chromatix.xml \
-    vendor/sharp/SS2/proprietary/vendor/firmware/TFA9891_pl2.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_pl2.cnt \
-    vendor/sharp/SS2/proprietary/vendor/firmware/TFA9891_pl2.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_pl2.ini \
-    vendor/sharp/SS2/proprietary/vendor/firmware/TFA9891_sd1.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1.cnt \
-    vendor/sharp/SS2/proprietary/vendor/firmware/TFA9891_sd1.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1.ini \
-    vendor/sharp/SS2/proprietary/vendor/firmware/TFA9891_sd1_dvt.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1_dvt.cnt \
-    vendor/sharp/SS2/proprietary/vendor/firmware/TFA9891_sd1_dvt.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1_dvt.ini \
     vendor/sharp/SS2/proprietary/vendor/firmware/TP_Firmware_FT8716.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716.bin \
     vendor/sharp/SS2/proprietary/vendor/firmware/TP_Firmware_FT8716_S2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S2.bin \
     vendor/sharp/SS2/proprietary/vendor/firmware/a508_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b00 \
     vendor/sharp/SS2/proprietary/vendor/firmware/a508_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b01 \
     vendor/sharp/SS2/proprietary/vendor/firmware/a508_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b02 \
     vendor/sharp/SS2/proprietary/vendor/firmware/a508_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.mdt \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b00 \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b01 \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b02 \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b03 \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b04 \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b05 \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b06 \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b07 \
-    vendor/sharp/SS2/proprietary/vendor/firmware/elanfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.mdt \
     vendor/sharp/SS2/proprietary/vendor/firmware/fpctzappfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b00 \
     vendor/sharp/SS2/proprietary/vendor/firmware/fpctzappfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b01 \
     vendor/sharp/SS2/proprietary/vendor/firmware/fpctzappfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fpctzappfingerprint.b02 \
