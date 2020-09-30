@@ -207,6 +207,7 @@ PRODUCT_COPY_FILES += \
     vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_s5k4h8_s2p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_s2p.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_s5k4h8_s2p_m24c64t_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_s2p_m24c64t_eeprom.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
+    vendor/sharp/SS2/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/sharp/SS2/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
